@@ -1,3 +1,5 @@
+from telebot import logger
+
 from keyboards.reply.reply_buttons import *
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 from API_info.to_work_with_API import *
